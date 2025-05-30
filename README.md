@@ -22,3 +22,9 @@ com.dev.azeem.ktor.recipe
 |------------------------|----------------------------|
 | Language               | Kotlin                     |
 | Dependency Injection   | Koin                       |
+
+---
+
+Deployed the server application on [Render](https://render.com/)
+
+Access it here [Ktor-Recipe](https://ktor-recipe.onrender.com/recipes/all?page=1)
