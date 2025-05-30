@@ -1,0 +1,1 @@
+web: build/install/com.dev.azeem.ktor.recipe/bin/com.dev.azeem.ktor.recipe
