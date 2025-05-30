@@ -8,7 +8,14 @@ group = "com.dev.azeem"
 version = "0.0.1"
 
 application {
-    mainClass = "io.ktor.server.netty.EngineMain"
+//    mainClass = "io.ktor.server.netty.EngineMain"
+    mainClass.set("com.dev.azeem.ktor.recipe.Application.kt")
+}
+
+ktor {
+    fatJar {
+        archiveFileName.set("ktor-recipe.jar")
+    }
 }
 
 tasks.create("stage") {
