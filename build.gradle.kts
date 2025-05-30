@@ -5,7 +5,6 @@ plugins {
 }
 
 group = "com.dev.azeem"
-version = "0.0.1"
 
 application {
 //    mainClass = "io.ktor.server.netty.EngineMain"
@@ -14,7 +13,7 @@ application {
 
 ktor {
     fatJar {
-        archiveFileName.set("ktor-recipe.jar")
+        archiveFileName.set("Ktor-Recipe.jar")
     }
 }
 
