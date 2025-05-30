@@ -8,8 +8,7 @@ group = "com.dev.azeem"
 version = "0.0.1"
 
 application {
-//    mainClass = "io.ktor.server.netty.EngineMain"
-    mainClass.set("com.dev.azeem.ktor.recipe.Application.kt")
+    mainClass = "io.ktor.server.netty.EngineMain"
 }
 
 tasks.create("stage") {
