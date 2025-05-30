@@ -1,5 +1,6 @@
 package com.dev.azeem
 
+import com.dev.azeem.ktor.recipe.module
 import io.ktor.client.request.*
 import io.ktor.http.*
 import io.ktor.server.testing.*
